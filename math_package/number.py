@@ -9,7 +9,7 @@ class Number:
         return self + 3
 
     def plus_two(self):
-        return self + 2
+        return self + 3
 
     def plus_three(self):
         return self + 3
