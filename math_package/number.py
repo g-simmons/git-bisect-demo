@@ -2,26 +2,29 @@ class Number:
     def __init__(self, value):
         self.value = value
 
+    def __add__(self, other):
+        return Number(self.value + other)
+
     def plus_one(self):
-        return Number(self.value + 1)
+        return self + 1
 
     def plus_two(self):
-        return Number(self.value + 2)
+        return self + 2
 
     def plus_three(self):
-        return Number(self.value + 3)
+        return self + 3
 
     def plus_five(self):
-        return Number(self.value + 5)
+        return self + 5
 
     def plus_seven(self):
-        return Number(self.value + 7)
+        return self + 7
 
     def plus_four(self):
-        return Number(self.value + 4)
+        return self + 4
 
     def plus_six(self):
-        return Number(self.value + 6)
+        return self + 6
 
     def __eq__(self, other):
         return self.value == other.value
