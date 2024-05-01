@@ -6,7 +6,7 @@ class Number:
         return Number(self.value + other)
 
     def plus_one(self):
-        return self + 1
+        return self + 3
 
     def plus_two(self):
         return self + 2
