@@ -17,5 +17,8 @@ class Number:
     def plus_seven(self):
         return Number(self.value + 7)
 
+    def plus_four(self):
+        return Number(self.value + 4)
+
     def __eq__(self, other):
         return self.value == other.value
