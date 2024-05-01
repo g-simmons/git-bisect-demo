@@ -20,3 +20,10 @@ def test_one_plus_three():
         assert Number(1).plus_three() == 3
     except AssertionError:
         exit(1)
+
+
+if __name__ == "__main__":
+    test_one_plus_one()
+    test_two_plus_one()
+    test_one_plus_three()
+    print("All tests passed")
