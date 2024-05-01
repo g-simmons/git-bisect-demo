@@ -5,6 +5,9 @@ class Number:
     def plus_one(self):
         return Number(self.value + 1)
 
+    def plus_two(self):
+        return Number(self.value + 1)
+
     def plus_three(self):
         return Number(self.value + 3)
 
