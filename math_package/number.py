@@ -6,10 +6,16 @@ class Number:
         return Number(self.value + 1)
 
     def plus_two(self):
-        return Number(self.value + 1)
+        return Number(self.value + 2)
 
     def plus_three(self):
-        return Number(self.value + 2)
+        return Number(self.value + 3)
+
+    def plus_five(self):
+        return Number(self.value + 5)
+
+    def plus_seven(self):
+        return Number(self.value + 7)
 
     def __eq__(self, other):
         return self.value == other.value
