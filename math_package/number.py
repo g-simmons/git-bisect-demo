@@ -5,6 +5,9 @@ class Number:
     def __add__(self, other):
         return Number(self.value + other)
 
+    def __mul__(self, other):
+        return Number(self.value * other)
+
     def plus_one(self):
         return self + 3
 
@@ -28,3 +31,6 @@ class Number:
 
     def __eq__(self, other):
         return self.value == other.value
+
+    def times_two(self):
+        return self * 2
